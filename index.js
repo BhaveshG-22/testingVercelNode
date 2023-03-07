@@ -10,3 +10,6 @@ app.listen('9004',(req,res)=>{
 app.get('/',(req,res)=>{
     res.render('trialPage');
 })
+app.get('/index.js',(req,res)=>{
+    res.render('trialPage');
+})
